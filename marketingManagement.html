@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>LearnHub</h1>
+      <div class="user-options">
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signUp.html">Sign Up</a>
+        <a href="profile.html">Profile</a>
+      </div>
+    </header>
+    <section id="subject-selection">
+      <h2>Marketing Management</h2>
+      <div class="video-container">
+        <iframe width="725" height="315" src="https://youtu.be/UMfWG1meBBc?si=4LDG6xjp9r_H6oGG" frameborder="0" allowfullscreen></iframe>
+        <iframe width="725" height="315" src="https://youtu.be/4Luwa-NLbVI?si=IbnMUOPDjPmXf7z_" frameborder="0" allowfullscreen></iframe>
+        <iframe width="725" height="315" src="https://youtu.be/owrQi1VZlRs?si=3CdKSV0L3C0P5w10" frameborder="0" allowfullscreen></iframe>
+        <iframe width="725" height="315" src="https://youtu.be/e_24cDCzquw?si=WOlewVqF_E4qSKcW" frameborder="0" allowfullscreen></iframe>
+        <iframe width="725" height="315" src="https://youtu.be/75vv3SNbfSw?si=h0DJsDGwCNtI067F" frameborder="0" allowfullscreen></iframe>
+        <iframe width="725" height="315" src="https://www.youtube.com/watch?v=xTpnsgIvBa8&list=PLaAhQ2ofZZRBhZEC2Oqm-vg2iMeOo1V7J&index=7" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <button id="quiz-button">Take Quiz</button>
+    <div id="quiz-popup" class="hidden">
+      <DIV class="quiz-box">
+      <h3>Artificial Intelligence Quiz</h3>
+      <form id="ai-quiz">
+        <fieldset>
+          <legend>Question 1:</legend>
+          <p>What is the role of reinforcement learning in AI?</p>
+          <label><input type="radio" name="q6" value="a"> Learning through trial and error</label><br>
+          <label><input type="radio" name="q6" value="b"> Learning from labeled data</label><br>
+          <label><input type="radio" name="q6" value="c"> Processing natural language</label><br>
+          <label><input type="radio" name="q6" value="d"> Recognizing objects in images</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 2:</legend>
+          <p>What is the difference between symbolic AI and connectionist AI?</p>
+          <label><input type="radio" name="q7" value="a"> Symbolic uses logic and rules, connectionist uses neural
+            networks</label><br>
+          <label><input type="radio" name="q7" value="b"> Symbolic is faster, connectionist is more accurate</label><br>
+          <label><input type="radio" name="q7" value="c"> Symbolic deals with text data, connectionist deals with
+            images</label><br>
+          <label><input type="radio" name="q7" value="d"> There is no difference</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 3:</legend>
+          <p>What are some ethical considerations surrounding AI development?</p>
+          <label><input type="radio" name="q8" value="a"> Job displacement</label><br>
+          <label><input type="radio" name="q8" value="b"> Algorithmic bias</label><br>
+          <label><input type="radio" name="q8" value="c"> Explainability and transparency</label><br>
+          <label><input type="radio" name="q8" value="d"> All of the above</label><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Question 4:</legend>
+          <p>What is the role of big data in AI development?</p>
+          <label><input type="radio" name="q9" value="a"> Provides large datasets for training models</label><br>
+          <label><input type="radio" name="q9" value="b"> Improves processing speed</label><br>
+          <label><input type="radio" name="q9" value="c"> Reduces development costs</label><br>
+          <label><input type="radio" name="q9" value="d"> All of the above</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 5:</legend>
+          <p>What are some potential benefits of artificial general intelligence (AGI)?</p>
+          <label><input type="radio" name="q10" value="a"> Solving complex problems</label><br>
+          <label><input type="radio" name="q10" value="b"> Automating tedious tasks</label><br>
+          <label><input type="radio" name="q10" value="c"> Scientific discovery</label><br>
+          <label><input type="radio" name="q10" value="d"> All of the above</label><br>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="quiz-result" class="hidden">
+        
+      </div>
+    </div>
+
+    <div id="confirmation-message" class="hidden">Form submitted successfully!</div>
+  </DIV> 
+    
+  </body>
+</html>

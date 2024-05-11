@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>LearnHub</h1>
+        <div class="user-options">
+          <a href="index.html">Home</a>
+          <a href="login.html">Login</a>
+          <a href="signUp.html">Sign Up</a>
+          <a href="profile.html">Profile</a>
+            
+        </div>
+    </header>
+    <section id="subject-selection">
+        <h2> Computer Networks</h2>
+        <div class="video-container">
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/OEC0PcOgyZw?si=sSJAeHeGEh_Q_6A5" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/95qGLkxPqV0?si=p8BMlrr5zpnQlpxR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/HoDZ6fxttmg?si=xoqh6ht6kMYGCT8R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/-9ikVFD313U?si=rcc58VzlA63pAQOV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/KnTrjXiXG5c?si=bq5vh0-vGSR3uuKd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/48n1DPJApgc?si=AcRko9JA5xrHKqKj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>      
+        </div>
+      </section>
+      <button id="quiz-button">Take Quiz</button>
+    <div id="quiz-popup" class="hidden">
+      <DIV class="quiz-box">
+      <h3>Artificial Intelligence Quiz</h3>
+      <form id="ai-quiz">
+        <fieldset>
+          <legend>Question 1:</legend>
+          <p>What is the difference between a network device and a network node?</p>
+          <label><input type="radio" name="q1" value="a"> A device processes data, a node simply connects devices.</label><br>
+          <label><input type="radio" name="q1" value="b"> A device is active, a node can be active or passive.</label><br>
+          <label><input type="radio" name="q1" value="c"> There is no difference, the terms are interchangeable.</label><br>
+          <label><input type="radio" name="q1" value="d"> A device connects to the internet, a node connects to a local network.</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 2:</legend>
+          <p>What are the two main types of network topologies?</p>
+          <label><input type="radio" name="q2" value="a"> Client-server and peer-to-peer</label><br>
+          <label><input type="radio" name="q2" value="b"> Bus and star</label><br>
+          <label><input type="radio" name="q2" value="c"> Wired and wireless</label><br>
+          <label><input type="radio" name="q2" value="d"> Local and wide area</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 3:</legend>
+          <p>What is the function of the IP address in a computer network?</p>
+          <label><input type="radio" name="q3" value="a"> To assign a unique identifier to a device on the network.</label><br>
+          <label><input type="radio" name="q3" value="b"> To determine the speed of a network connection.</label><br>
+          <label><input type="radio" name="q3" value="c"> To secure communication between devices.</label><br>
+          <label><input type="radio" name="q3" value="d"> To store data on the network.</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 4:</legend>
+          <p>What is the primary difference between a local area network (LAN) and a wide area network (WAN)?</p>
+          <label><input type="radio" name="q4" value="a"> LANs are private networks, WANs are public networks.</label><br>
+          <label><input type="radio" name="q4" value="b"> LANs cover a small geographic area, WANs cover a large geographic area.</label><br>
+          <label><input type="radio" name="q4" value="c"> LANs connect similar devices, WANs connect different device types.</label><br>
+          <label><input type="radio" name="q4" value="d"> LANs are slower than WANs.</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 5:</legend>
+          <p>What is the role of a firewall in a computer network?</p>
+          <label><input type="radio" name="q5" value="a"> To connect devices to a network.</label><br>
+          <label><input type="radio" name="q5" value="b"> To manage network traffic flow.</label><br>
+          <label><input type="radio" name="q5" value="c"> To encrypt data sent over the network.</label><br>
+          <label><input type="radio" name="q5" value="d"> To filter incoming and outgoing traffic for security purposes.</label><br>
+        </fieldset> <fieldset>
+          <legend>Question 1:</legend>
+          <p>What is the difference between a network device and a network node?</p>
+          <label><input type="radio" name="q1" value="a"> A device processes data, a node simply connects devices.</label><br>
+          <label><input type="radio" name="q1" value="b"> A device is active, a node can be active or passive.</label><br>
+          <label><input type="radio" name="q1" value="c"> There is no difference, the terms are interchangeable.</label><br>
+          <label><input type="radio" name="q1" value="d"> A device connects to the internet, a node connects to a local network.</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 2:</legend>
+          <p>What are the two main types of network topologies?</p>
+          <label><input type="radio" name="q2" value="a"> Client-server and peer-to-peer</label><br>
+          <label><input type="radio" name="q2" value="b"> Bus and star</label><br>
+          <label><input type="radio" name="q2" value="c"> Wired and wireless</label><br>
+          <label><input type="radio" name="q2" value="d"> Local and wide area</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 3:</legend>
+          <p>What is the function of the IP address in a computer network?</p>
+          <label><input type="radio" name="q3" value="a"> To assign a unique identifier to a device on the network.</label><br>
+          <label><input type="radio" name="q3" value="b"> To determine the speed of a network connection.</label><br>
+          <label><input type="radio" name="q3" value="c"> To secure communication between devices.</label><br>
+          <label><input type="radio" name="q3" value="d"> To store data on the network.</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 4:</legend>
+          <p>What is the primary difference between a local area network (LAN) and a wide area network (WAN)?</p>
+          <label><input type="radio" name="q4" value="a"> LANs are private networks, WANs are public networks.</label><br>
+          <label><input type="radio" name="q4" value="b"> LANs cover a small geographic area, WANs cover a large geographic area.</label><br>
+          <label><input type="radio" name="q4" value="c"> LANs connect similar devices, WANs connect different device types.</label><br>
+          <label><input type="radio" name="q4" value="d"> LANs are slower than WANs.</label><br>
+        </fieldset>
+      
+        <fieldset>
+          <legend>Question 5:</legend>
+          <p>What is the role of a firewall in a computer network?</p>
+          <label><input type="radio" name="q5" value="a"> To connect devices to a network.</label><br>
+          <label><input type="radio" name="q5" value="b"> To manage network traffic flow.</label><br>
+          <label><input type="radio" name="q5" value="c"> To encrypt data sent over the network.</label><br>
+          <label><input type="radio" name="q5" value="d"> To filter incoming and outgoing traffic for security purposes.</label><br>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="quiz-result" class="hidden">
+        
+      </div>
+    </div>
+
+    <div id="confirmation-message" class="hidden">Form submitted successfully!</div>
+  </DIV> 
+    
+    
+ 
+</body>
+</html>

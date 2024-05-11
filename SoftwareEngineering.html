@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>LearnHub</h1>
+        <div class="user-options">
+          <a href="index.html">Home</a>
+          <a href="login.html">Login</a>
+          <a href="signUp.html">Sign Up</a>
+          <a href="profile.html">Profile</a>
+            
+        </div>
+    </header>
+    <section id="subject-selection">
+        <h2> Software Engineering</h2>
+        <div class="video-container">
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/E-kmLZutPyo?si=jhDwd1YMeaJXI9J-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/jPk2jKumfI8?si=U2Con57FV-xQhqdd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/GQ_jkqUsg5U?si=VCSMNLwgi713vv7P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/0Qs8aNeKwrs?si=j843ByqCyuJ4IIIB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/VvrKhtAy99A?si=VOccGqh7c2YbErbR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="725" height="315" src="https://www.youtube.com/embed/zmHfNY5v4b8?si=CdQO_d1O9lfpTGoj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>     
+        </div>
+      </section>
+    
+      <button id="quiz-button">Take Quiz</button>
+      <div id="quiz-popup" class="hidden">
+        <DIV class="quiz-box">
+        <h3>Artificial Intelligence Quiz</h3>
+        <form id="ai-quiz">
+          <fieldset>
+            <legend>Question 1:</legend>
+            <p>What is the role of reinforcement learning in AI?</p>
+            <label><input type="radio" name="q1" value="a"> Learning through trial and error</label><br>
+            <label><input type="radio" name="q1" value="b"> Learning from labeled data</label><br>
+            <label><input type="radio" name="q1" value="c"> Processing natural language</label><br>
+            <label><input type="radio" name="q1" value="d"> Recognizing objects in images</label><br>
+          </fieldset>
+        
+          <fieldset>
+            <legend>Question 2:</legend>
+            <p>What is the difference between symbolic AI and connectionist AI?</p>
+            <label><input type="radio" name="q7" value="a"> Symbolic uses logic and rules, connectionist uses neural
+              networks</label><br>
+            <label><input type="radio" name="q7" value="b"> Symbolic is faster, connectionist is more accurate</label><br>
+            <label><input type="radio" name="q7" value="c"> Symbolic deals with text data, connectionist deals with
+              images</label><br>
+            <label><input type="radio" name="q7" value="d"> There is no difference</label><br>
+          </fieldset>
+        
+          <fieldset>
+            <legend>Question 3:</legend>
+            <p>What are some ethical considerations surrounding AI development?</p>
+            <label><input type="radio" name="q8" value="a"> Job displacement</label><br>
+            <label><input type="radio" name="q8" value="b"> Algorithmic bias</label><br>
+            <label><input type="radio" name="q8" value="c"> Explainability and transparency</label><br>
+            <label><input type="radio" name="q8" value="d"> All of the above</label><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Question 4:</legend>
+            <p>What is the role of big data in AI development?</p>
+            <label><input type="radio" name="q9" value="a"> Provides large datasets for training models</label><br>
+            <label><input type="radio" name="q9" value="b"> Improves processing speed</label><br>
+            <label><input type="radio" name="q9" value="c"> Reduces development costs</label><br>
+            <label><input type="radio" name="q9" value="d"> All of the above</label><br>
+          </fieldset>
+        
+          <fieldset>
+            <legend>Question 5:</legend>
+            <p>What are some potential benefits of artificial general intelligence (AGI)?</p>
+            <label><input type="radio" name="q10" value="a"> Solving complex problems</label><br>
+            <label><input type="radio" name="q10" value="b"> Automating tedious tasks</label><br>
+            <label><input type="radio" name="q10" value="c"> Scientific discovery</label><br>
+            <label><input type="radio" name="q10" value="d"> All of the above</label><br>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="quiz-result" class="hidden">
+          
+        </div>
+      </div>
+  
+      <div id="confirmation-message" class="hidden">Form submitted successfully!</div>
+    </DIV> 
+      
+</body>
+</html>
